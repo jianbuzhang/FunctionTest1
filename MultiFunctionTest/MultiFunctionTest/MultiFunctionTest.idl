@@ -1,0 +1,29 @@
+// MultiFunctionTest.idl : MultiFunctionTest.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(MultiFunctionTest.tlb)。
+
+[ uuid(A3306FBD-001E-4FA5-A1A1-670A4D62B20D), version(1.0) ]
+library MultiFunctionTest
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMultiFunctionTestDoc 的主调度接口
+	
+	[ uuid(2D807FD3-7B34-49B3-A70D-2A1116B121EB) ]
+	dispinterface IMultiFunctionTest
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CMultiFunctionTestDoc 的类信息
+	
+	[ uuid(1017D213-0D93-4E89-BE1A-D96B0ADC011E) ]
+	coclass CMultiFunctionTestDoc
+	{
+		[default] dispinterface IMultiFunctionTest;
+	};
+};

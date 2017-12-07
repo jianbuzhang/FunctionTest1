@@ -1,0 +1,16 @@
+REGEDIT
+; 此 .REG 文件可能由 SETUP 程序使用。
+;   如果 SETUP 程序不可用，则以下条目将
+;   CWinApp::RegisterShellFileTypes 和 COleObjectFactory::UpdateRegistryAll
+;   在 InitInstance 中对下列项自动进行注册。
+
+
+HKEY_CLASSES_ROOT\MultiFunctionTest.Document = MultiFunctionTest.Document
+
+
+HKEY_CLASSES_ROOT\MultiFunctionTest.Document\CLSID = {1017D213-0D93-4E89-BE1A-D96B0ADC011E}
+
+HKEY_CLASSES_ROOT\CLSID\{1017D213-0D93-4E89-BE1A-D96B0ADC011E} = MultiFunctionTest.Document
+HKEY_CLASSES_ROOT\CLSID\{1017D213-0D93-4E89-BE1A-D96B0ADC011E}\ProgId = MultiFunctionTest.Document
+
+HKEY_CLASSES_ROOT\CLSID\{1017D213-0D93-4E89-BE1A-D96B0ADC011E}\LocalServer32 = MultiFunctionTest.EXE

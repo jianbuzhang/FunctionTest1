@@ -1,4 +1,5 @@
 #pragma once
+//²Î¿¼²©¿Í
 //http://blog.csdn.net/m0_37170593/article/details/76445972
 
 //__declspec(dllexport) int InitAcceTest();

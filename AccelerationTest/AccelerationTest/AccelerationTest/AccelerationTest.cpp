@@ -7,22 +7,24 @@
 
 using namespace std;
 
-int InitAcceTest() 
+int AccelerationTest::InitAcceTest()
 {
 	cout<<"初始化传感器测试"<<endl;
 	return 0;
 }
 
-int SendComToDUT() 
+int AccelerationTest::SendComToDUT()
 {
 	cout<<"传感器测试：发送指令到DUT"<<endl;
 	return 0;
 }
 
-int ReceiveCmdFromDUT() 
+int AccelerationTest::ReceiveCmdFromDUT()
 {
 	cout<<"传感器测试：接收来自DUT的指令"<<endl;
 	return 0;
 }
+
+
 
 

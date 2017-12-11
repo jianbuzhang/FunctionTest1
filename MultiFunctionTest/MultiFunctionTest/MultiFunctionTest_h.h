@@ -4,7 +4,7 @@
 
 
  /* File created by MIDL compiler version 8.00.0603 */
-/* at Fri Dec 08 21:54:46 2017
+/* at Mon Dec 11 12:03:59 2017
  */
 /* Compiler settings for MultiFunctionTest.idl:
     Oicf, W1, Zp8, env=Win32 (32b run), target_arch=X86 8.00.0603 

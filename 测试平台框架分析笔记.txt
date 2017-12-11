@@ -1,0 +1,8 @@
+MENU					关于
+MAINFRAME				文件	视图	帮助
+MultiFunctionType		文件	编辑	视图	窗口	帮助	----
+OUTPUT_POPUP			弹出项
+POPUP_EDIT				编辑
+EXPLORE					资源管理器
+POPUP_SORT				排序
+THEME_MENU				蓝色样式	黑色样式	银色样式

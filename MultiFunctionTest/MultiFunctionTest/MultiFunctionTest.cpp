@@ -240,7 +240,7 @@ void CMultiFunctionTestApp::OnAppAbout()
 	aboutDlg.DoModal();
 }
 
-// CMultiFunctionTestApp 自定义加载/保存方法
+//http://images2015.cnblogs.com/blog/641601/201608/641601-20160809223016293-1324408193.png// CMultiFunctionTestApp 自定义加载/保存方法
 
 void CMultiFunctionTestApp::PreLoadState()
 {
